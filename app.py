@@ -14,8 +14,8 @@ app = Flask(__name__)
 
 # Set your OpenAI API key
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = openai_api_key
+os.environ["OPENAI_API_KEY"] = "sk-BwG84-ynNtFs-bbMdF4Ar5sQwpqH_I9VRY3tiFWnbAT3BlbkFJ-5RmmWUGuI-wRjnWH0W_00FV3CvI7ZPdsvDrQhJ-4A"
+
 
 
 # Define a function to load PDF and create chunks
